@@ -12,7 +12,7 @@ requests:
   - method: GET
     path:
       - "{{BaseURL}}"
-      
+
     extractors:
       - type: regex
         name: sink
